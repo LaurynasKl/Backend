@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "oop": "nodemon ./003/oop.js",
+    "array003": "nodemon ./003/array003.js",
     "array002": "nodemon ./002/array002.js",
     "task001": "nodemon ./001/task.js",
     "test": "echo \"Error: no test specified\" && exit 1"
