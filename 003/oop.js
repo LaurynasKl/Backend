@@ -72,5 +72,5 @@ console.log(digit1);
 const arr = new Array(10)
     .fill(null)
     .map(_ => new RandomDigit())
-    .map(el => console.log(el.digit) || el.digit);
+    .map(num => console.log(num.digit) || num.digit);
 console.log(arr);

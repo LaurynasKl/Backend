@@ -4,6 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "set-map": "nodemon ./004/set-map.js",
+    "static": "nodemon ./004/static.js",
+    "task9": "nodemon ./004/task9.js",
+    "task8": "nodemon ./004/task8.js",
+    "task1": "nodemon ./004/task1.js",
     "oop": "nodemon ./003/oop.js",
     "array003": "nodemon ./003/array003.js",
     "array002": "nodemon ./002/array002.js",
