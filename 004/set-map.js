@@ -9,8 +9,10 @@ array.push(7);
 
 console.log(array);
 
+
 const set = new Set();
 
+//pridedamos tik unikalios reiksmes
 set.add(10);
 set.add(10);
 set.add(10);
