@@ -1,16 +1,26 @@
-import { useContext } from "react"
-import { BooksContext } from "./BooksContext"
-import  Books  from './Books'
+import { useContext } from 'react';
+import { BooksContext } from './BooksContext';
+import Books from './Books';
+import Top from './Top';
+// import Important from './Important';
+
 export default function Layout() {
 
-    const { books } = useContext(BooksContext)
+    const { books } = useContext(BooksContext);
 
-    return(
+    return (
         <div className="layout">
-            {books === null 
-            ? <div className='loading'>Loading... </div>
-            : <Books />
-            }
+            {/* <Important/> */}
+            <Top/>
+            {
+            books === null 
+            ? 
+            <div className="loading">Kraunasi knygos...</div>
+            :
+            <Books/>
+
+        }
+            
         </div>
     )
 }
